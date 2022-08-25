@@ -1,0 +1,58 @@
+:root {
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%); 
+    --grayishBlue: hsl(217, 19%, 38%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--darkBlue);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.cardHolder {
+    background-color: var(--darkGrayishBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 25px;
+    padding-top: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+h1 {
+    color: var(--neonGreen);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+p {
+    color: var(--lightCyan);
+    font-size: 22px;
+}
+
+.inputBackGround {
+    background-color: var(--neonGreen);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+}
+
+.centerY {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

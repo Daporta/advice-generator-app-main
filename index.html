@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body onload="getQuote()">
+
+
+  <section class="center"> 
+    <div class="cardHolder">
+      <h1 id="adviceNumber">ADVICE #01</h1>
+      <p id="advice">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio cumque nihil earum ut architecto incidunt</p>
+      <img src="./images/pattern-divider-desktop.svg"></img>
+      <div class="inputBackGround centerY">
+        <input type="image" src="./images/icon-dice.svg" width="20" onclick="getQuote()">
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
